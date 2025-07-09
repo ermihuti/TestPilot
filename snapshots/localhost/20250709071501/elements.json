@@ -1,0 +1,18 @@
+[
+  {
+    "tag": "input",
+    "type": "url",
+    "name": null,
+    "id": null,
+    "class": null,
+    "text": ""
+  },
+  {
+    "tag": "button",
+    "type": "submit",
+    "name": null,
+    "id": null,
+    "class": null,
+    "text": "Start Analysis"
+  }
+]

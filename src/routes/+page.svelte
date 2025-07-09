@@ -1,5 +1,4 @@
 <script>
-  import { onMount } from 'svelte';
   let url = '';
   let loading = false;
   let report = null;
@@ -15,7 +14,7 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url })
       });
-      if (!res.ok) throw new Error('Failed to start analysis');
+      if (!res.ok) throw new Error((await res.json()).error || 'Analysis failed');
       report = await res.json();
     } catch (e) {
       error = e.message;
@@ -26,24 +25,24 @@
 </script>
 
 <div>
-  <h1>Website AI Analyzer</h1>
-  <input
-    type="url"
-    placeholder="Enter website URL"
-    bind:value={url}
-    style="width: 400px"
-  />
-  <button on:click={startAnalysis} disabled={loading || !url}>
-    {loading ? 'Analyzing...' : 'Start Analysis'}
+  <h1>Website Analyzer</h1>
+  <input type="url" placeholder="Enter website URL" bind:value={url} style="width:400px" />
+  <button on:click={startAnalysis} disabled={loading||!url}>
+    {loading ? 'Analyzing…' : 'Start Analysis'}
   </button>
 </div>
 
 {#if error}
   <p style="color:red">{error}</p>
-{/if}
-
-{#if report}
-  <h2>Analysis Complete</h2>
-  <p>Summary PDF: <a href={report.summaryPdf} target="_blank">Download</a></p>
-  <p>Details PDF: <a href={report.detailsPdf} target="_blank">Download</a></p>
+{:else if report}
+  <h2>Report</h2>
+  <p><strong>Timestamp:</strong> {report.timestamp}</p>
+  <h3>Detected Changes</h3>
+  {#if report.changes.length}
+    <ul>{#each report.changes as c}<li>{c}</li>{/each}</ul>
+  {:else}
+    <p>No changes detected.</p>
+  {/if}
+  <h3>Full JSON Report</h3>
+  <pre>{JSON.stringify(report,null,2)}</pre>
 {/if}

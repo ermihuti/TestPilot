@@ -1,0 +1,46 @@
+{
+  "links": [
+    {
+      "href": "https://castles.vercel.app/api/burgen",
+      "status": 200
+    },
+    {
+      "href": "https://castles.vercel.app/api/burgen/1",
+      "status": 200
+    },
+    {
+      "href": "https://castles.vercel.app/api/burgen/2",
+      "status": 200
+    },
+    {
+      "href": "https://castles.vercel.app/api/burgen/3",
+      "status": 200
+    },
+    {
+      "href": "https://castles.vercel.app/api/burgen/4",
+      "status": 200
+    },
+    {
+      "href": "https://castles.vercel.app/api/burgen/5",
+      "status": 200
+    },
+    {
+      "href": "https://castles.vercel.app/api/burgen/6",
+      "status": 200
+    },
+    {
+      "href": "https://castles.vercel.app/api/burgen/7",
+      "status": 200
+    },
+    {
+      "href": "https://castles.vercel.app/api/burgen/8",
+      "status": 200
+    },
+    {
+      "href": "https://castles.vercel.app/api/burgen/9",
+      "status": 200
+    }
+  ],
+  "inputs": [],
+  "buttons": []
+}

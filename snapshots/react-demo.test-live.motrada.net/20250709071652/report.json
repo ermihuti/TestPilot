@@ -1,0 +1,213 @@
+{
+  "url": "https://react-demo.test-live.motrada.net/",
+  "timestamp": "20250709071652",
+  "elements": [
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": "react-demo-logo margin-top-5 navbar-brand A-br8h0y-0 bIMUDd",
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "class": "navbar-toggle-responsive navbar-toggle collapsed",
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": "DropDownSwitcher",
+      "class": "dropdown-toggle",
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": "/register/step1",
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": "nav_guest_login",
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": "/login",
+      "class": null,
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": "font-w400 font-s12 black A-br8h0y-0 bIMUDd",
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": "font-w400 font-s12 black A-br8h0y-0 bIMUDd",
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": "font-w400 font-s12 black A-br8h0y-0 bIMUDd",
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": "font-w400 font-s12 black A-br8h0y-0 bIMUDd",
+      "text": ""
+    },
+    {
+      "tag": "a",
+      "type": null,
+      "name": null,
+      "id": null,
+      "class": "font-w400 font-s12 black A-br8h0y-0 bIMUDd",
+      "text": ""
+    }
+  ],
+  "interactions": {
+    "links": [
+      {
+        "href": "https://react-demo.test-live.motrada.net/",
+        "status": 200
+      },
+      {
+        "href": "https://react-demo.test-live.motrada.net/#",
+        "status": 200
+      },
+      {
+        "href": "https://react-demo.test-live.motrada.net/#",
+        "status": 200
+      },
+      {
+        "href": "https://react-demo.test-live.motrada.net/#",
+        "status": 200
+      },
+      {
+        "href": "https://react-demo.test-live.motrada.net/#",
+        "status": 200
+      },
+      {
+        "href": "https://react-demo.test-live.motrada.net/#",
+        "status": 200
+      },
+      {
+        "href": "https://react-demo.test-live.motrada.net/#",
+        "status": 200
+      },
+      {
+        "href": "https://react-demo.test-live.motrada.net/#",
+        "status": 200
+      },
+      {
+        "href": "https://react-demo.test-live.motrada.net/#",
+        "status": 200
+      },
+      {
+        "href": "https://react-demo.test-live.motrada.net/#",
+        "status": 200
+      }
+    ],
+    "inputs": [],
+    "buttons": []
+  },
+  "changes": []
+}
